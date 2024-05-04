@@ -1,0 +1,85 @@
+body {
+    font-family: sans-serif;
+    color: yellow; 
+    
+    background-color: black;
+    outline: 10px solid rgb(82, 2, 2);
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    text-align: center;
+    
+    background-color: darkred;
+    color:yellow;
+    
+    }
+    .anomaly img:hover {
+    opacity: 1;
+    border: 6px solid red;
+
+    padding: 5px;
+    transition: ease-out 0.5s;
+}
+
+.logo{
+    float: left;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+nav a{
+    border: 2px solid black;
+    background-color: black;
+    text-decoration: none;
+    color:darkred;
+    border-radius: 25px;
+    padding: 5px;
+    margin: 5px;
+    font-size: 25px;
+}
+nav a:hover{
+    color: green;
+    transform: scale(1.2);
+    transition: .5s;
+
+}
+.Admins{
+    display: flex;
+    justify-content: space-around;
+ 
+}
+.worker{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Image{
+    display: block;
+   
+    width: 100%;
+
+}
+.Image img{
+    width: 50%;
+    height: auto;
+}
+
+
+
+h3 {
+    color: green;
+}
+h1 {
+text-align: center;
+    font-size: 30px;
+    background-color: darkred;
+    color:yellow;
+    text-shadow: 0 0 20px yellow;
+}
+
+
